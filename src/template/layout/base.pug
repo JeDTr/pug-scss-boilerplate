@@ -1,0 +1,12 @@
+include ../config
+include ../mixins/mixins
+
+html(lang= lang)
+  head
+    include ../partials/head
+
+  body
+    main
+      block content
+
+    script(src="./js/main.js")
